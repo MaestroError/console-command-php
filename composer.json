@@ -1,0 +1,21 @@
+{
+    "name": "maestroerror/console-command-php",
+    "description": "ccPHP is command processing class to provide CLI commands in Unix style (cmd - options - arg) ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maestroerror",
+            "email": "revaz.gh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "maestroerror\\": "src/"
+        }
+    }
+}
