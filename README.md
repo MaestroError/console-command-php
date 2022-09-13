@@ -23,3 +23,11 @@ returns array like:
     "options" => Array,
 ]
 ```
+
+--------------------------------
+### To Do
+- fix current class and rename/use as command read class
+- add new global class ConsoleCommandPhp with static methods Run (reads and runs command) and Read (read command and returns array value)
+- add main class to extend and use as parent class for class commands with livewire style: bool types for --options, string types for -valued=option and think out how to add arguments
+- Make helper function which initialates parent class and help you create command in the fly, without static class writing (use chain)
+- Seo, Documentation and Examples
